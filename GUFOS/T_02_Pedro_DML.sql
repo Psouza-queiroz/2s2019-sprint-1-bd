@@ -22,7 +22,6 @@ VALUES ('Futebol no terraço','Do nucleo de desenvolvimento Senai '
 		,'2019-08-06T18:00:00',1,'Alameda barão de Limeira, 539',3)
 
 		SELECT * FROM Eventos
-		SELECT * FROM Usuarios
 		SELECT * FROM Categorias ORDER BY IdCategoria asc;
 		 
 INSERT INTO Presencas (IdEvento, IdUsuario) VALUES (1,2),(1,1),(2,2)
