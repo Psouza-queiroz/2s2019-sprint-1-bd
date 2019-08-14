@@ -51,6 +51,11 @@ IdLancamento INT PRIMARY KEY IDENTITY
 ALTER TABLE Usuarios ADD Permissao BIT DEFAULT(0)
 
 
+ALTER TABLE Usuarios add Imagem Image
+
+
+
+
 
 
 
