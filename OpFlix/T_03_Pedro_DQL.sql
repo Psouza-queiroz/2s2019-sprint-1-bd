@@ -17,3 +17,34 @@ FROM Classificacao
 
 SELECT *
 FROM Lancamentos
+
+create procedure PesquisarNome @Nome VarChar(255)
+as
+
+select Lancamentos. *, Categorias.Categoria
+from Lancamentos
+join Categorias
+on Lancamentos.IdCategoria = Categorias.IdCategoria
+where @nome = Categorias.Categoria 
+
+exec PesquisarNome  'acao'
+
+
+Drop Procedure PesquisarNome
+
+
+create procedure PesquisarPorId @IdCategoria VarChar(255)
+as
+
+select Lancamentos. *, Categorias.IdCategoria
+from Lancamentos
+join Categorias
+on Lancamentos.IdCategoria = Categorias.IdCategoria
+where @IdCategoria = Categorias.IdCategoria
+
+exec PesquisarNome  '9'
+
+Drop Procedure PesquisarPorId
+
+
+

@@ -54,6 +54,11 @@ UPDATE Lancamentos
 set IdPlataforma = 5
 Where IdLancamento = 2
 
+
+Update Lancamentos
+set  IdCategoria = 9
+where IdLancamento = 10
+
 INSERT INTO Lancamentos (Nome,Sinopse,DuracaoMin,DataDeLancamento,IdPlataforma,IdCategoria,IdTipo,IdClassificacao) Values ('Como Treinar Seu Dragão 3','A trilogia da aclamada animação de Bangela e Soluço chega ao fim com Como Treinar o Seu Dragão 3.','104','17/01/2019','6','4','1','1')
 							  ,('Alita: Anjo de Combate','Uma ciborgue adolescente precisa usar suas habilidades únicas de luta para desvendar seu passado.','142','14/02/2019','6','6','1','4')
 							  ,('Turma da Mônica: Laços','O Floquinho desaparece. Para encontrar seu cachorro de estimação, Cebolinha conta com os amigos Cascão, Mônica e Magali e, claro, um plano infalível.','97','27/07/2019','6','6','1','1')

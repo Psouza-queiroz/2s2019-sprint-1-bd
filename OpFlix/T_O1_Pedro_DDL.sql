@@ -50,8 +50,7 @@ IdLancamento INT PRIMARY KEY IDENTITY
 
 ALTER TABLE Usuarios ADD Permissao BIT DEFAULT(0)
 
-SELECT *	
-FROM Lancamentos
+
 
 
 
