@@ -36,3 +36,26 @@ Set Permissao = 1
 Where IdUsuario = 3
 
 INSERT INTO Categorias VALUES ('Acao'),('Comedia'),('Documentario'),('Ficçao Cientifica')
+
+DELETE Lancamentos
+WHERE IdLancamento = 4
+
+Update lancamentos
+set Nome =  'La Casa De Papel - 3º Temporada'
+WHERE IdLancamento = 3
+
+INSERT INTO Plataforma VALUES ('VHS')
+
+Update Lancamentos
+set DataDeLancamento = '08/07/1994'
+Where IdLancamento = 2
+
+UPDATE Lancamentos
+set IdPlataforma = 5
+Where IdLancamento = 2
+
+INSERT INTO Lancamentos (Nome,Sinopse,DuracaoMin,DataDeLancamento,IdPlataforma,IdCategoria,IdTipo,IdClassificacao) Values ('Como Treinar Seu Dragão 3','A trilogia da aclamada animação de Bangela e Soluço chega ao fim com Como Treinar o Seu Dragão 3.','104','17/01/2019','6','4','1','1')
+							  ,('Alita: Anjo de Combate','Uma ciborgue adolescente precisa usar suas habilidades únicas de luta para desvendar seu passado.','142','14/02/2019','6','6','1','4')
+							  ,('Turma da Mônica: Laços','O Floquinho desaparece. Para encontrar seu cachorro de estimação, Cebolinha conta com os amigos Cascão, Mônica e Magali e, claro, um plano infalível.','97','27/07/2019','6','6','1','1')
+
+INSERT INTO Lancamentos (Nome,Sinopse,DuracaoMin,DataDeLancamento,IdPlataforma,IdCategoria,IdTipo,IdClassificacao) Values ('Guardiões da Galáxia','O aventureiro do espaço Peter Quill torna-se presa de caçadores de recompensas depois que rouba a esfera de um vilão traiçoeiro, Ronan. Para escapar do perigo, ele faz uma aliança com um grupo de quatro extraterrestres.','145','31/07/2014','1','6','1','2')

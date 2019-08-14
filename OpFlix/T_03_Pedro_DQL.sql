@@ -14,3 +14,6 @@ FROM Plataforma
 
 SELECT *
 FROM Classificacao
+
+SELECT *
+FROM Lancamentos
