@@ -30,7 +30,7 @@ where @nome = Categorias.Categoria
 exec PesquisarNome  'acao'
 
 
-Drop Procedure PesquisarPorId
+Drop Procedure PesquisarNome
 
 
 create procedure PesquisarPorId @IdCategoria INT
